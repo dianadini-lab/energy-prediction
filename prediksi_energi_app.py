@@ -35,7 +35,8 @@ col_left, col_right = st.columns([1, 1], gap="large")
 with col_left:
     st.markdown("<h3 style='color: #4B6B32;'>USER MENGINPUT PREDIKTOR</h3>", unsafe_allow_html=True)
     st.markdown("**Energy Consumption Prediction**")
-    st.write("Enter the building and operational conditions below, then click the prediction button.")
+    st.write("Silahkan masukkan parameter gedung dan operasional ..")
+    
     
     # Widget Input Numerik (Slider)
     temperature = st.slider("Temperature (°C):", 20.0, 30.0, 21.0, 0.1)
